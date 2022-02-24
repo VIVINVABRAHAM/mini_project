@@ -1,0 +1,60 @@
+.topnav .search-container {
+    float: right;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a,
+    .topnav input[type=text],
+    .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 200px;
+        margin: 0;
+        padding: 14px;
+    }
+}
+
+.search-container input[type="tex"] {
+    border: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    height: 55px;
+    padding: 6px;
+    font-size: 20px;
+    width: 100px;
+    background: #fb2525;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.search-container input[type="text"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.search-container {
+    position: absolute;
+    z-index: 10px;
+    left: 440px;
+    top: 8px;
+}

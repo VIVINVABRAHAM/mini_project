@@ -1,0 +1,41 @@
+body {
+    background: fixed;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.container {
+    position: fixed;
+    width: 1500px;
+    height: 600px;
+    top: 110px;
+    background-color: aqua;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.work_history {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 160px;
+    left: 50px;
+    background-color: blueviolet;
+}
+
+
+/* .work_load {
+    width: 600px;
+    height: 200px;
+    background-color: brown;
+}
+
+.instructions {
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+} */

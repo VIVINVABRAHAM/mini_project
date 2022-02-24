@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.add {
+    position: fixed;
+    top: 100px;
+}
+
+.add a {
+    font-size: larger;
+}
+
+.prod_details {
+    position: fixed;
+    top: 130px;
+    left: 20px;
+}
+
+table {
+    align-items: center;
+}
+
+.prod_details td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    width: 150px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}

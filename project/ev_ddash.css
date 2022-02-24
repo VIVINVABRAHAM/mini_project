@@ -1,0 +1,9 @@
+body {
+    background: fixed;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center center;
+    overflow: hidden;
+}

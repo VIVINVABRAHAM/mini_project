@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    margin: 20px 0px 10px 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.a {
+    top: 20px;
+    margin: 0px;
+}
+
+.bg {
+    margin: 0px;
+}
+
+.a font {
+    display: block;
+}
+
+.a img:hover+.a font {
+    display: none;
+}
+
+.eval {
+    position: absolute;
+    font-size: 30px;
+    top: 0px;
+    font-style: italic;
+    z-index: 5;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.a img {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.details {
+    position: absolute;
+    background-color: #B6C0D2;
+    width: 250px;
+    height: 120px;
+    border-radius: 15px;
+    margin: -96px 0px 0px 18px;
+    z-index: 5;
+}
+
+.first {
+    position: relative;
+    top: 20px;
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #9CFF00;
+}
+
+.evaluation {
+    position: relative;
+    font-size: xx-large;
+    font-style: bold;
+    align-items: center;
+    left: 50px;
+    color: black;
+}
+
+.prod_name {
+    position: relative;
+    font-size: x-large;
+    align-items: center;
+    left: 60px;
+}
+
+.second {
+    position: relative;
+}
+
+.s1 {
+    position: relative;
+    left: 6px;
+    top: 24px;
+    right: 10px;
+}
+
+.s2 {
+    position: relative;
+    font-size: 16px;
+    top: 6px;
+    left: 160px;
+}
+
+
+/* .detail9 {
+    display: block;
+}
+
+.prod9:hover+.detail9 {
+    display: none;
+}
+
+.detail9 {
+    position: fixed;
+    height: 150px;
+    width: 250px;
+    background-color: #B6C0D2;
+    top: 590px;
+    left: 1030p
+    border-radius: 15px;
+}
+
+.first_part9 {
+    background-color: #9CFF00;
+    border-radius: 15px;
+    margin: 20px 0px 0px 0px;
+    top: 70px;
+    bottom: 20px;
+     .first_part2 {
+            background-color: #FFFF00;
+            border-radius: 15px;
+            margin: 20px 0px 0px 0px;
+            top: 70px;
+            bottom: 20px;
+        }
+}
+
+.prod9 {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-color: #f1f1f1;
+    left: 950px;
+    top: -900px;
+    border-radius: 15px;
+} */

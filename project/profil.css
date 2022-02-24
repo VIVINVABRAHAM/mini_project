@@ -1,0 +1,372 @@
+body {
+    background: fixed;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center center;
+    overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.newss {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: #FA26A0;
+    top: 150px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.ph {
+    position: fixed;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    top: 160px;
+    left: 35px;
+    background-color: #EAEFF2;
+}
+
+.ph img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    left: 0px;
+}
+
+.tx {
+    position: absolute;
+    left: 80px;
+    bottom: -60px;
+}
+
+.cho {
+    position: relative;
+    top: -4px;
+    left: 14px;
+}
+
+.cho_up {
+    position: relative;
+    top: -3px;
+    right: 20px;
+}
+
+.before {
+    position: fixed;
+    background-color: aquamarine;
+    margin: 55px 0px 60px 340px;
+    left: 0px;
+    width: 1280px;
+    height: 650px;
+    z-index: 0;
+    bottom: 500px;
+    right: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    top: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    transition: 0.7s;
+    border-radius: 15px;
+}
+
+select {
+    font-size: 208px;
+    font-size: max(20px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    /* background-color: #00FFFF; */
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+}
+
+select {
+    display: flex;
+    width: 262px;
+    margin: 0px;
+}
+
+select:focus {
+    min-width: 262px;
+    width: 262px;
+}
+
+.box {
+    position: fixed;
+    top: 100px;
+    margin: 0px;
+    width: 300px;
+    align-items: center;
+    height: auto;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    text-align: center;
+}
+
+#table2 {
+    background-color: #EAEFF2;
+    position: relative;
+    border-radius: 15px;
+    width: 410px;
+    height: 258px;
+    top: 20px;
+    bottom: 0px;
+    left: -10px;
+    top: -22px;
+}
+
+#table {
+    background-color: #FF4500;
+    position: fixed;
+    border-radius: 15px;
+    margin: 0px 0px 0px 0px;
+    width: 530px;
+    height: 280px;
+    top: 100px;
+    left: 780px;
+    bottom: 0px;
+}
+
+.prod_img {
+    position: absolute;
+    width: 300px;
+    height: 294px;
+    background-color: #FA26A0;
+    top: 10px;
+    left: 980px;
+    border-radius: 15px;
+}
+
+.prodi {
+    position: fixed;
+    right: 94px;
+    width: 280px;
+    height: 240px;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.prodi img {
+    width: 280px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.choo {
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+
+.choo_up {
+    position: relative;
+    top: -20px;
+}
+
+.img_up {
+    position: absolute;
+    top: 294px;
+    bottom: 0px;
+    left: 80px;
+    align-items: center;
+}
+
+.selec {
+    position: relative;
+    left: 100px;
+}
+
+#product {
+    background-color: #F8D210;
+    position: fixed;
+    border-radius: 15px;
+    margin: 20px 0px 0px 0px;
+    width: 550px;
+    height: 280px;
+    bottom: 94px;
+    left: 426px;
+}
+
+#demand {
+    background-color: #FA26A0;
+    position: fixed;
+    border-radius: 15px;
+    margin: 20px 0px 0px 0px;
+    width: 550px;
+    height: 280px;
+    bottom: 94px;
+    right: 156px;
+}
+
+.user input {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.text {
+    font-size: 20px;
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+}
+
+.text1 {
+    font-size: 20px;
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    font-style: italic;
+}
+
+table {
+    white-space: nowrap;
+}
+
+td {
+    text-align: center;
+}
+
+.pro {
+    position: relative;
+    font-size: 30px;
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    font-weight: bolder;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    text-decoration: solid;
+    text-anchor: middle;
+    top: -20px;
+    left: -500px;
+}
+
+.input {
+    font-size: 20px;
+    font-size: max(20px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+}
+
+.input1 {
+    font-size: 32px;
+    font-size: max(32px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #ffffff;
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+}
+
+.new {
+    position: fixed;
+    align-items: center;
+    top: 700px;
+    left: 754px;
+}
+
+.reset {
+    position: relative;
+    left: 0px;
+    left: 0px;
+    align-items: center;
+}
+
+.continue {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+}
+
+.cancel {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    align-items: right;
+}
+
+.reset input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.reset input[type="button"]:hover {
+    cursor: pointer;
+    cursor: hand;
+    background: #ffc107;
+    color: #000;
+}
+
+.continue input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.continue input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.cancel input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.cancel input[type="button"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.update {
+    position: relative;
+    left: 150px;
+    top: 0px;
+    align-items: center;
+}
+
+.update input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.update input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

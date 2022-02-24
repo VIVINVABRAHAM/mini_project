@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+body {
+    background: fixed;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.prod_details table {
+    position: fixed;
+    background-color: aquamarine;
+    margin: 100px 0px 100px 70px;
+    left: -55px;
+    width: 500px;
+    height: 190px;
+    z-index: 0;
+    bottom: 500px;
+    right: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    top: 40px;
+    padding: 40px 50px 50px 50px;
+    transition: 0.7s;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+
+.add {
+    position: fixed;
+    top: 100px;
+}
+
+.add a {
+    font-size: larger;
+}
+
+.prod_details {
+    position: fixed;
+    top: 130px;
+    left: 10px;
+}
+
+.det {
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    top: 90px;
+    left: 60px;
+}
+
+table {
+    align-items: center;
+}
+
+.prod_details td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    padding: 20px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}

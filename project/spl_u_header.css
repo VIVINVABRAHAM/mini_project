@@ -1,0 +1,415 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.heade {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    background-color: #0134E8;
+}
+
+.header {
+    position: fixed;
+    margin: 0px 0px 0px 1240px;
+    top: 0px;
+    align-items: right;
+}
+
+.logo {
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    left: 70px;
+}
+
+.logo img {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.prod {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.product {
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 310px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.product-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+
+/* Links inside the dropdown */
+
+.product-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.product-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.product:hover .product-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.product:hover .prod {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.bxsearch input {
+    font-size: 26px;
+    font-size: max(26px, 1em);
+    font-family: fixed;
+    padding: 0.25em 0.5em;
+    background-color: #00FFFF;
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+    position: relative;
+    top: 14px;
+    left: 668px;
+    width: 500px;
+}
+
+.search input[type="submit"] {
+    border: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    height: 42px;
+    width: 90px;
+    background: #F95700FF;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.search input[type="submit"]:hover {
+    cursor: pointer;
+    background: #00FF00;
+    color: #000;
+}
+
+.search {
+    position: fixed;
+    top: 14px;
+    right: 460px;
+}
+
+.log {
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.login {
+    position: absolute;
+    display: inline-block;
+    top: 22px;
+    right: 160px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.login-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+
+/* Links inside the dropdown */
+
+.login-content a {
+    cursor: pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.login-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.login:hover .login-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.home input[type="submit"] {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 100px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.home input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.home {
+    cursor: pointer;
+    position: fixed;
+    z-index: 10px;
+    right: 0px;
+    left: 200px;
+    top: 10px;
+}
+
+
+/* Dropdown Button */
+
+.abo {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.about {
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 420px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.about-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 50;
+    border-radius: 10px;
+}
+
+
+/* Links inside the dropdown */
+
+.about-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+    width: 1100px;
+    height: 600px;
+    /* //background-image: url(nature.jpg); */
+    display: block;
+    background-color: #99FF99;
+    border-radius: 15px;
+}
+
+
+/* .aboutt {
+            background-image: url(nature.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+        } */
+
+
+/* Change color of dropdown links on hover */
+
+.about-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.about:hover .about-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.about:hover .abo {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.con {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    width: 102px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.contact {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: 206px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.contact-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 40;
+    border-radius: 10px;
+}
+
+
+/* Links inside the dropdown */
+
+.contact-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: x-large;
+    width: 280px;
+    height: 100px;
+    /* //background-image: url(nature.jpg); */
+    display: block;
+    background-color: #CC99CC;
+    border-radius: 15px;
+}
+
+
+/* .aboutt {
+            background-image: url(nature.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+        } */
+
+
+/* Change color of dropdown links on hover */
+
+.contact-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.contact:hover .contact-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.contact:hover .con {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.contact {
+    position: absolute;
+    z-index: 10px;
+    left: 551px;
+    top: 10px;
+}
+
+.search {
+    position: fixed;
+    width: 50px;
+    height: 10px;
+}
+
+table {
+    white-space: nowrap;
+    size: 100px;
+}
+
+td {
+    text-align: left;
+}
